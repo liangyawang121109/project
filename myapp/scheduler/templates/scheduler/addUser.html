@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>ADD USER</title>
+</head>
+<style>
+    form{
+        color: white;
+    }
+</style>
+<body>
+    <div class="container" style="background-color: #3e4fdf">
+        <form action="http://127.0.0.1:8000/scheduler/memberadd/" method="post">
+            用户名：<input type="text" name="username" value="请输入用户名"> <br/>
+            密码： <input type="password" name="password" value="请输入密码" maxlength="6"> <br />
+            <input type="submit" value="添加">
+
+
+        </form>
+
+    </div>
+</body>
+</html>

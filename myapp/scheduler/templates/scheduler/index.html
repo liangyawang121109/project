@@ -2,17 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Title</title>
 </head>
 <body>
-    {% if container_list %}
-        <ul>
-        {% for container in container_list %}
-            <li><a href="/scheduler/{{ container.environment_name }}/">{{ container }}</a></li>
-        {% endfor %}
-        </ul>
-    {% else %}
-        <p>No polls are available.</p>
-    {% endif %}
+    <div class="container">
+        <div class="row" style="
+        background-color: #737dfa;
+        height: 50px;
+        width: auto;
+        text-align: center;
+        line-height: 50px;
+        font-size: 30px;
+        color: orange" >
+
+            LDAP管理平台
+        </div>
+        <div class="row">
+            <ul class="nav nav-tabs">
+              <li role="presentation" ><a href="addUser.html">ADD USER</a></li>
+              <li role="presentation"><a href="delUser.html">DELETE USER</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
 </body>
 </html>

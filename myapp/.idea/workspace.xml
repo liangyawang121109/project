@@ -11,8 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="954de013-6743-4f0e-8bc1-4ccff417c4fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scheduler/templates/scheduler/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/templates/scheduler/addUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/templates/scheduler/delUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler/templates/scheduler/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler/templates/scheduler/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -53,6 +58,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Django Server.myapp">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myapp/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myapp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,9 +129,11 @@
     <list>
       <item itemvalue="Django Server.myapp" />
       <item itemvalue="Python.urls" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.urls" />
       </list>
     </recent_temporary>
@@ -120,7 +149,10 @@
       <option name="presentableId" value="Default" />
       <updated>1599029924525</updated>
       <workItem from="1599030086745" duration="284000" />
-      <workItem from="1599030431372" duration="10095000" />
+      <workItem from="1599030431372" duration="11873000" />
+      <workItem from="1599445102812" duration="289000" />
+      <workItem from="1599640649391" duration="5636000" />
+      <workItem from="1599813413219" duration="17000" />
     </task>
     <servers />
   </component>
@@ -137,6 +169,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599030558171">
@@ -147,32 +180,37 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="417" y="56" key="#myapp/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599030463884" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1599038632568">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1599666154546">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599038632568" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1599038632566">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599446143401" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1599666154546" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1599666154543">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599038632566" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1599038632566">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599446143400" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1599666154543" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1599666154542">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599038632566" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1599038632567">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599446143399" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1599666154542" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1599666154545">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599038632567" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599446143401" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1599666154545" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1599031117040">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599031117040" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1599032000310">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1599646209904">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599032000310" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1599646209904" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/myapp$urls.coverage" NAME="urls Coverage Results" MODIFIED="1599038624187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scheduler" />
+    <SUITE FILE_PATH="coverage/myapp$test.coverage" NAME="test Coverage Results" MODIFIED="1599214247322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp" />
   </component>
 </project>
